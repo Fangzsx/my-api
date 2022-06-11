@@ -10,6 +10,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "start": "node src/drivers/express/index.js",
     "test": "jasmine spec/app.spec.js"
   },
   "keywords": [],

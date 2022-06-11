@@ -7,7 +7,7 @@ class App {
 
     }
     startHttpServer(){
-        this.httpServer = new HttpServer(this.options.port, this.express())
+        this.httpServer = new HttpServer(this.options.port, this.express)
         return this.httpServer.start();
     }
 
@@ -16,3 +16,4 @@ class App {
             .then(() => this.startHttpServer())
     }
 }
+module.exports = App;
